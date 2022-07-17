@@ -1,0 +1,159 @@
+/* div {
+    background-color: #EAF6F6;
+} */
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+/* You cannot set the height and width of block-level elements in CSS. */
+/* 16px = 100% = 1em */
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+.top {
+    position: relative;
+    background-color: #EAF6F6;
+    padding-top: 100px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.footer-link {
+    color: #11999E;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.abacus-img {
+    margin-right: 30px;
+    width: 25%;
+    float: left;
+
+}
+
+.music-img {
+    margin-left: 30px;
+    width: 25%;
+    float: right;
+
+}
+
+.My-description {
+    color: #40514E;
+    width: 38%;
+    line-height: 2;
+    text-align: center;
+    margin: 0 auto 80px auto;
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: lightgray;
+    border-width: 10px;
+    width: 6%;
+}
+
+.skill {
+    margin-top: 80px;
+}
+
+.Me {
+    margin-top: 80px;
+}
+
+.end {
+    width: 40%;
+    margin: 0 auto 50px auto;
+    line-height: 2;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    margin-top: 100px;
+    height: 25vh;
+    text-align: center;
+    position: relative;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-style: hidden;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+
+    margin-top: 50px;
+}
+
+.footer-link {
+    margin: 0 24px ;
+    position: relative;
+    top: 8vh;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color: white;
+}
+
+.Copyright {
+    color: #EAF6F6;
+    font-size: 13px;
+    position: absolute;
+    bottom: 4vh;
+    left:41vw;
+}
